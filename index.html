@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourav Nath | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+          <div class="logo"><a href="#home">Sourav</a></div>
+          <nav>
+            <ul class="nav-links" id="nav-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          
+          <!-- Move dark mode toggle outside the nav -->
+          <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌙</button>
+
+          
+           <!-- 🌙 Dark Mode Toggle Button -->
+<!-- <div class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+    <i class="fas fa-moon"></i>
+  </div> -->
+  <!-- hamburger Menu -->
+          <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </header>
+
+  <header class="hero-section" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="fade-in">Hi, I'm <span class="highlight">Sourav Nath</span></h1>
+        <h2 class="typewriter">I'm a Full-Stack Developer</h2>
+        <p>Building modern web experiences with React, Node.js, and Tailwind CSS.</p>
+        <div class="buttons">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
+          
+        </div>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/srv-24" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sourav-nath-769b41277/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:nathsourav914@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/sourav-profile-pic-removebg-preview.png" alt="Sourav Nath" />
+      </div>
+    </div>
+  </header>
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text fade-in">
+          <p>
+            I'm <strong>Sourav Nath</strong>, a passionate full-stack developer with a strong foundation in building dynamic, responsive web applications. With a love for clean code and great design, I specialize in turning ideas into interactive digital solutions.
+          </p>
+          <p>
+            I have experience working with technologies like <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React.js</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>. Currently, I’m expanding my knowledge in cloud computing and DevOps to become a well-rounded developer.
+          </p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <h3>2+</h3>
+            <p>Years of Learning & Practice</p>
+          </div>
+          <div class="highlight-card">
+            <h3>10+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Full Stack</h3>
+            <p>Developer Focus</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML5</h3>
+          <div class="progress-bar"><span style="width: 95%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>CSS3 / Tailwind CSS</h3>
+          <div class="progress-bar"><span style="width: 90%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="progress-bar"><span style="width: 85%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>React.js</h3>
+          <div class="progress-bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Node.js</h3>
+          <div class="progress-bar"><span style="width: 75%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>MongoDB</h3>
+          <div class="progress-bar"><span style="width: 70%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card fade-in-up">
+          <img src="assets/portfolio website.jpg" alt="Project 1">
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A portfolio website to  showcase my skills, resume, and projects.Built with clean HTML,css and JavaScript. Including animations,dark mode toggle and mobile  responsiveness.</p>
+            <a href="https://github.com/srv-24/Portfolio_Website" target="_blank">View Code</a>
+          </div>
+        </div>
+  
+        <div class="project-card fade-in-up">
+          <img src="assets/stopwatch project.jpg" alt="Project 2">
+          <div class="project-content">
+            <h3>Stopwatch</h3>
+            <p>A lightweight stopwatch application built using plain HTML, CSS, and JavaScript. Includes start, stop, and reset functionality for accurate time tracking.</p>
+            <a href="https://github.com/srv-24/stop-watch-project" target="_blank">View Code</a>
+          </div>
+        </div>
+  
+        <div class="project-card fade-in-up">
+          <img src="assets/MediaplayerProject.png" alt="Project 3">
+          <div class="project-content">
+            <h3>MediaPlayer Project</h3>
+            <p>A custom-built media player developed during my Full Stack Web Development course at Coding Ninjas. Features include play/pause, volume control, progress bar, and responsive design.</p>
+            <a href="https://github.com/srv-24/mediaplayer-project-codingninja" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="resume-section" id="resume">
+    <div class="container">
+      <h2 class="section-title">My Resume</h2>
+      <div class="resume-box">
+        <p>You can download or view my resume directly:</p>
+        <div class="resume-actions">
+          <a href="assets/Sourav_Nath_CV.pdf" target="_blank" class="btn btn-primary">📄 View Resume</a>
+          <a href="assets/Sourav_Nath_CV.pdf" download class="btn btn-outline">⬇️ Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">Have a question, opportunity, or just want to say hello? Drop a message below 👇</p>
+  
+      <form class="contact-form" id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+  
+      
+    </div>
+  </section>
+  <!-- ✅ Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Sourav Nath. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="mailto:nathsourav914@gmail.com" target="_blank" aria-label="Email"><i class="fab fa-google"></i></a>
+        <a href="https://github.com/srv-24" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sourav-nath-769b41277/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+ 
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
